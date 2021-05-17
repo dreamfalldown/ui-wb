@@ -39,9 +39,14 @@ export default defineComponent({
   },
 });
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
+header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.377);
+}
+
 .header-button {
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.377);
+  border-bottom: 0;
 }
 </style>
